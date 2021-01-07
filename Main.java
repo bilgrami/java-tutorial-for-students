@@ -1,6 +1,3 @@
-// package com.corp.learning;
-// import com.corp.learning.Vehicle;
-// import com.corp.learning.HybridVehicle;
 /*
 Goal:
  - Show usage of implementing abstract methods
@@ -11,7 +8,6 @@ Goal:
  - Composition of objects 
  - Polymorphism
 */
-// import HybridVehicle;
 
 // public class Prius  extends HybridVehicle {
 public class Main  extends HybridVehicle {
@@ -28,9 +24,9 @@ public class Main  extends HybridVehicle {
     }
 
     public static void main(String[] args) {
-        System.out.println("Hello");
         Main my_prius = new Main("Syed Bilgrami", 2019);
-        println("Hello " + my_prius.owner + ", you own a " + my_prius.maker);
+        System.out.println("Hello " + my_prius.owner + ", you own a " + my_prius.maker);
         my_prius.moveTo(10, 20);
+        my_prius.moveTo(30, 40);
     }
 }
